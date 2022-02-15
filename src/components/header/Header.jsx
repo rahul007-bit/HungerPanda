@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+
 const Header = () => {
   return (
     <>
@@ -9,8 +10,16 @@ const Header = () => {
           <h1 className="text get__app">Get App</h1>
         </div>
         <div className="right">
-          <div className="link">Login</div>
-          <div className="link">Signup</div>
+          <div>
+            <a className="link" href="/login">
+              Login
+            </a>
+          </div>
+          <div className="link">
+            <a className="link" href="/signup">
+              Signup
+            </a>
+          </div>
         </div>
       </header>
     </>
