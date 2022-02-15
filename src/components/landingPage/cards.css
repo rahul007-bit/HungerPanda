@@ -1,0 +1,29 @@
+.main {
+  height: auto;
+  width: 270px;
+  border: 0.5px solid rgb(175 177 181);
+  border-radius: 5px 5px 20px 20px;
+  overflow: hidden;
+  margin: 20px 50px;
+}
+img {
+  height: 17vh;
+  width: 270px;
+}
+.outerdiv {
+  display: flex;
+  justify-content: center;
+  margin: 50px 100px;
+}
+@media (max-width: 900px) {
+  .outerdiv {
+    flex-direction: column;
+  }
+}
+.bottomdiv {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}

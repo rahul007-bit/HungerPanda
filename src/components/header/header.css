@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400;1,500&family=Poppins:ital,wght@0,400;0,700;1,400;1,600,500&display=swap");
+.header {
+  background-color: rgb(33 37 41);
+  color: rgb(241 255 253);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  margin: 0;
+  padding: 0 0.5rem;
+  font-weight: 420;
+  font-size: 28px;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+.right {
+  display: flex;
+  align-items: center;
+}
+.get__app {
+  font-size: 22px;
+}
+.link {
+  padding: 0 0.5rem;
+  color: rgb(145 156 151);
+}
