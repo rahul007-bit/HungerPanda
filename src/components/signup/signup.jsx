@@ -1,6 +1,8 @@
-import React from "react";
+import { React, useState } from "react";
 import "./signup.css";
 const SignUp = () => {
+  const [disabled, setdisabled] = useState(false);
+
   return (
     <div className="bg ">
       <div className="innerdiv">
@@ -18,10 +20,12 @@ const SignUp = () => {
           <input className="input_style" type="password" />
           <label className="text-Style input-label">Contact Number</label>
           <input className="input_style" type="tel" pattern="[0-9]{10}" />
-          <label className="text-Style input-label">Date of Birth</label>
+          <label id="date" className="text-Style input-label">
+            Date of Birth
+          </label>
           <input className="input_style" type="date" />
-          <input className="checkbox" type="checkbox" />
-          <span className="text-Style">Check me out</span>
+          <input id="check" className="checkbox" type="checkbox" />
+          <label className="text-Style">Check me out</label>
           <input
             className="submit_btn text-Style"
             type="submit"
