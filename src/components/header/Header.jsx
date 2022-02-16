@@ -6,17 +6,19 @@ const Header = () => {
     <>
       <header className="header">
         <div className="left">
-          <h1 className="text">HungerPanda</h1>
+          <a className="deco" href="/">
+            <h1 className="text">HungerPanda</h1>
+          </a>
           <h1 className="text get__app">Get App</h1>
         </div>
         <div className="right">
           <div>
-            <a className="link" href="/login">
+            <a className="link deco" href="/login">
               Login
             </a>
           </div>
-          <div className="link">
-            <a className="link" href="/signup">
+          <div>
+            <a className="link deco" href="/signup">
               Signup
             </a>
           </div>
