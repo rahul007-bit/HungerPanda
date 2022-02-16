@@ -1,16 +1,22 @@
-import Header from "./header/Header";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
+import Header from "./header/Header";
 import LandingPage from "./landingPage/LandingPage";
 import Login from "./login/login";
 import SignUp from "./signup/signup";
 
 const App = () => {
   return (
-    <div>
-      <Header />
-
-      <SignUp />
-    </div>
+    <Router>
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<LandingPage />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/signup" element={<SignUp />}></Route>
+        </Routes>
+      </div>
+    </Router>
   );
 };
 

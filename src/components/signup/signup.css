@@ -58,3 +58,15 @@
   width: 10px;
   height: 10px;
 }
+.disabled {
+  background-color: grey;
+  cursor: auto;
+}
+.show {
+  display: block;
+  color: red;
+  margin-bottom: 5px;
+}
+.hide {
+  display: none;
+}
