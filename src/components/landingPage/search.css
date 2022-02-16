@@ -7,6 +7,7 @@
   background-image: url(../../../public/images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 2%;
 }
 .textStyle {
   color: rgb(254 255 255);
@@ -47,4 +48,19 @@
 
 .long-input {
   width: 350px;
+}
+@media (max-width: 900px) {
+  .Tile {
+    font-size: 40px;
+    font-weight: 550;
+  }
+  .quots {
+    font-size: 20px;
+  }
+  .searchBox {
+    flex-direction: column;
+  }
+  .long-input {
+    width: 250px;
+  }
 }

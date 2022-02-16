@@ -18,6 +18,8 @@ img {
 @media (max-width: 900px) {
   .outerdiv {
     flex-direction: column;
+    margin: 50px auto;
+    align-items: center;
   }
 }
 .bottomdiv {
